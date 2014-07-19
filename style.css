@@ -1,0 +1,11 @@
+/*Implemented by James Fairbourn, PS1*/
+@CHARSET "ISO-8859-1";
+
+h2 {color:black}
+
+body {background-color:green; color:maroon}
+
+table, td
+{
+	border: 1px solid black;
+}

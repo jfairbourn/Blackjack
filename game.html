@@ -1,0 +1,66 @@
+<!-- Implemented by James Fairbourn, PS1 -->
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset=ISO-8859-1">
+<link rel="stylesheet" type="text/css" href="style.css">
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js" type="text/javascript"></script>
+<script src="control.js"></script>
+<title>Blackjack</title>
+</head>
+<body>
+<h2>Blackjack</h2>
+
+<div class="gameinfo">
+<table>
+<tr>
+<td><center>Wins:</center></td>
+<td><center>Dealer</center></td>
+<td><input type ="text" id = "DealerValue" readonly/></td>
+<td><center>Dealer Card</center>
+<td><input type = "text" id = "DealerCard1" readonly/></td>
+<td><input type = "text" id = "DealerCard2" readonly/></td>
+<td><input type = "text" id = "DealerCard3" readonly/></td>
+<td><input type = "text" id = "DealerCard4" readonly/></td>
+<td><input type = "text" id = "DealerCard5" readonly/></td>
+<td><input type = "text" id = "DealerCard6" readonly/></td>
+</tr>
+<tr>
+<td><input type = "text" id = "WinsCount" readonly/></td>
+<td><center>You</center></td>
+<td><input type = "text" id = "PlayerValue" readonly/></td>
+<td><center>Your Card</center>
+<td><input type = "text" id = "PlayerCard1" readonly/></td>
+<td><input type = "text" id = "PlayerCard2" readonly/></td>
+<td><input type = "text" id = "PlayerCard3" readonly/></td>
+<td><input type = "text" id = "PlayerCard4" readonly/></td>
+<td><input type = "text" id = "PlayerCard5" readonly/></td>
+<td><input type = "text" id = "PlayerCard6" readonly/></td>
+</tr>
+<tr>
+<td></td>
+<td><center>Winner:</center></td>
+<td><input type = "text" id = "result" readonly/></td>
+</tr>
+</table>
+</div>
+<p class=controls>
+<input type="button" value="Deal"/>
+<input type="button" value="Hit"/>
+<input type="button" value="Stand"/>
+</p>
+
+<p>
+Welcome to Blackjack.  To play, please select the "Deal" button.  
+The object of the game is to try and reach 21 points.  The face
+values of the cards are the number of points.  Kings, Jacks, and
+Queens are worth 10.  Ace is worth either 11 or 1, but will be 
+handled for you. Hit "Hit" if you want another card dealt to you.
+Hit "Stand" if you want to stay where you are.  If you exceed 21, 
+then you have bust and will result in a tie if the dealer busts 
+or otherwise is a loss.
+
+Have fun!
+</p>
+</body>
+</html>
